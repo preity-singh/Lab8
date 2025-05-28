@@ -11,5 +11,5 @@ Graceful degradation is the idea of building a full-featured web app and ensurin
 ![PWA Screenshot](assets/images/pwa.png)
 
 ## Working Pages Link
-
+https://preity-singh.github.io/Lab8/
 
