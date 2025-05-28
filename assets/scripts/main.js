@@ -115,7 +115,7 @@ async function getRecipes() {
         //            article on fetch(). NOTE: Fetches are ASYNCHRONOUS, meaning that
         //            you must either use "await fetch(...)" or "fetch.then(...)". This
         //            function is using the async keyword so we recommend "await"
-        const response = await fetch(url);
+        const response = await fetch(URL);
         // A7. TODO - For each fetch response, retrieve the JSON from it using .json().
         //            NOTE: .json() is ALSO asynchronous, so you will need to use
         //            "await" again
@@ -133,7 +133,7 @@ async function getRecipes() {
 
       } catch(err) {
         // A10. TODO - Log any errors from catch using console.error
-        console.error('fetch failed: ', url, err);
+        console.error('fetch failed: ', URL, err);
         // A11. TODO - Pass any errors to the Promise's reject() function
         reject(err);
         return;
